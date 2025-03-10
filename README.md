@@ -7,7 +7,7 @@
 
 ## 💼 O mnie
 
-Jestem studentem Informatyki, na studiach robiem wiele projektów w różnych językach.
+Jestem studentem Informatyki, na studiach robilem wiele projektów w różnych językach.
 
 ## ⚒️ Technologie i narzędzia
 
@@ -18,7 +18,9 @@ Jestem studentem Informatyki, na studiach robiem wiele projektów w różnych j�
 ![Android Studio](https://img.shields.io/badge/-Android%20Studio-3DDC84?logo=androidstudio&logoColor=white&style=flat)
 ![Java](https://img.shields.io/badge/-Java-007396?logo=java&logoColor=white&style=flat)
 ![Python](https://img.shields.io/badge/-Python-3776AB?logo=python&logoColor=white&style=flat)
-
+![HTML5](https://img.shields.io/badge/-HTML5-E34F26?logo=html5&logoColor=white&style=flat)
+![CSS3](https://img.shields.io/badge/-CSS3-1572B6?logo=css3&logoColor=white&style=flat)
+![PHP](https://img.shields.io/badge/-PHP-777BB4?logo=php&logoColor=white&style=flat)
 
 ---
 
@@ -28,7 +30,7 @@ Jestem studentem Informatyki, na studiach robiem wiele projektów w różnych j�
 | --- | --- | --- | --- |
 | [Czat w Next.js](https://github.com/jan-kowalski/nextjs-chat-app) | Aplikacja czatu w czasie rzeczywistym z Next.js, MongoDB i Socket.io | Next.js, MongoDB, TypeScript, Tailwind | [🔗 Demo](https://next-chat-demo.vercel.app/) |
 | [Survey Form](https://github.com/jan-kowalski/react-survey-form) | Aplikacja do tworzenia formularzy krok po kroku w React | React, Redux, React Query | [🔗 Demo](https://react-survey.vercel.app/) |
-| [Katering-projekt zrobiony w 3 osobowej grupie](https://github.com/jan-kowalski/react-survey-form) | Aplikacja do zamawiania kateringu, dodanie firm z kateringami  w React | Spring Boot, SQL | [🔗 Demo](https://react-survey.vercel.app/) |
+| [Katering-projekt zrobiony w 3 osobowej grupie](https://github.com/jan-kowalski/react-survey-form) | Aplikacja do zamawiania kateringu, dodanie firm z kateringami  w React | React, Spring Boot, SQL | [🔗 Demo](https://react-survey.vercel.app/) |
 
 
 ---
