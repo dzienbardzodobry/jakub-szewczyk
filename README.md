@@ -31,6 +31,8 @@ Jestem studentem Informatyki, na studiach robilem wiele projektów w różnych j
 | [Czat w Next.js](https://github.com/jan-kowalski/nextjs-chat-app) | Aplikacja czatu w czasie rzeczywistym z Next.js, MongoDB i Socket.io | Next.js, MongoDB, TypeScript, Tailwind | [🔗 Demo](https://next-chat-demo.vercel.app/) |
 | [Survey Form](https://github.com/jan-kowalski/react-survey-form) | Aplikacja do tworzenia formularzy krok po kroku w React | React, Redux, React Query | [🔗 Demo](https://react-survey.vercel.app/) |
 | [Katering-projekt zrobiony w 3 osobowej grupie](https://github.com/jan-kowalski/react-survey-form) | Aplikacja do zamawiania kateringu, dodanie firm z kateringami  w React | React, Spring Boot, SQL | [🔗 Demo](https://react-survey.vercel.app/) |
+| [LitORS](https://github.com/dzienbardzodobry/Zaawansowane-aplikacje-1) | Aplikacja do zamawiania kateringu, dodanie firm z kateringami  w React | React, Spring Boot, SQL | [🔗 Demo](https://dzienbardzodobry.github.io/Zaawansowane-aplikacje-1/) |
+
 
 
 ---
