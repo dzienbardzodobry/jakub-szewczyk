@@ -7,7 +7,7 @@
 
 ## 💼 O mnie
 
-Byłem studentem Informatyki w Katolicki Uniwersytet Lubelski Jana Pawła II, ukończyłem studia zarówno I stopnia jak i II stopnia. Na studiach robiłem wiele projektów zarówno w dziedzinie uczelnianych takich jak np. Cyberiada oraz branie udziału w Lubelskie Dni Informatyki jak i również udało mi się stworzyć 
+Byłem studentem Informatyki w Katolicki Uniwersytet Lubelski Jana Pawła II, ukończyłem studia zarówno I stopnia jak i II stopnia. Na studiach robiłem wiele projektów zarówno w dziedzinie uczelnianych takich jak np. Cyberiada oraz branie udziału w Lubelskie Dni Informatyki jak i również udało mi się stworzyć dane projekty.
 
 ## ⚒️ Technologie i narzędzia
 
