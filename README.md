@@ -27,7 +27,7 @@ Byłem studentem Informatyki w Katolicki Uniwersytet Lubelski Jana Pawła II, uk
 ## 🚧 Moje projekty
 
 | Projekt | Opis | Technologie | 
-| --- | --- | --- | --- |
+| --- | --- | --- | 
 | [1](https://github.com/dzienbardzodobry/Zaawansowane-aplikacje-1) | Aplikacja do zamawiania kateringu, dodanie firm z kateringami  w React | React, Spring Boot, SQL |
 | [2](https://github.com/dzienbardzodobry/Zaawansowane-aplikacje-1) | Aplikacja mobilna do zarządzania drużyną piłkarską | Android Studio, Firebase |
 | [3](https://github.com/dzienbardzodobry/Zaawansowane-aplikacje-1) | Projekt do kateringu | Visual Paradigm |
