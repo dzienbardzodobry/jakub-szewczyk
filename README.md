@@ -1,13 +1,13 @@
 # 👋 Witam, jestem Jakub!
 
 🚀 Lubię poznawać nowe rzeczy
-🔥 Obecnie pracuje nad pracą magisterską w Android Studio
+
 
 ---
 
 ## 💼 O mnie
 
-Jestem studentem Informatyki, na studiach robilem wiele projektów w różnych językach.
+Byłem studentem Informatyki w Katolicki Uniwersytet Lubelski Jana Pawła II, ukończyłem studia zarówno I stopnia jak i II stopnia. Na studiach robiłem wiele projektów zarówno w dziedzinie uczelnianych takich jak np. Cyberiada oraz branie udziału w Lubelskie Dni Informatyki jak i również udało mi się stworzyć 
 
 ## ⚒️ Technologie i narzędzia
 
@@ -28,7 +28,7 @@ Jestem studentem Informatyki, na studiach robilem wiele projektów w różnych j
 
 | Projekt | Opis | Technologie | Demo |
 | --- | --- | --- | --- |
-| [LitORS](https://github.com/dzienbardzodobry/Zaawansowane-aplikacje-1) | Aplikacja do zamawiania kateringu, dodanie firm z kateringami  w React | React, Spring Boot, SQL | [🔗 Demo](https://dzienbardzodobry.github.io/Zaawansowane-aplikacje-1/) |
+| [React, Spring Boot, SQL](https://github.com/dzienbardzodobry/Zaawansowane-aplikacje-1) | Aplikacja do zamawiania kateringu, dodanie firm z kateringami  w React | React, Spring Boot, SQL |
 
 
 
@@ -37,4 +37,5 @@ Jestem studentem Informatyki, na studiach robilem wiele projektów w różnych j
 ## 📫 Kontakt
 
 - 📧 E-mail: [jszewczyk728@gmail.com](mailto:jszewczyk728@gmail.com)
+  
 
