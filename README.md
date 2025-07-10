@@ -26,20 +26,20 @@ Byłem studentem Informatyki w Katolicki Uniwersytet Lubelski Jana Pawła II, uk
 
 ## 🚧 Moje projekty
 
-| Projekt | Opis | Technologie | 
+| Nr oraz Link do projektu | Opis | Technologie | 
 | --- | --- | --- | 
-| [1](https://github.com/dzienbardzodobry/Zaawansowane-aplikacje-1) | Aplikacja do zamawiania kateringu, dodanie firm z kateringami  w React | React, Spring Boot, SQL |
-| [2](https://github.com/dzienbardzodobry/Zaawansowane-aplikacje-1) | Aplikacja mobilna do zarządzania drużyną piłkarską | Android Studio, Firebase |
-| [3](https://github.com/dzienbardzodobry/Zaawansowane-aplikacje-1) | Projekt do kateringu | Visual Paradigm |
-| [4](https://github.com/dzienbardzodobry/Zaawansowane-aplikacje-1) | Projekt lit-ors obsługujący mapy | TypeScript |
-| [5](https://github.com/dzienbardzodobry/Zaawansowane-aplikacje-1) | Projekt html z logowaniem i rejestracją | HTML |
-| [6](https://github.com/dzienbardzodobry/Zaawansowane-aplikacje-1) | Projekt do zarządzania zamówieniami | JAVA |
-| [7](https://github.com/dzienbardzodobry/Zaawansowane-aplikacje-1) | Strona interentowa | HTML, Bootstrap |
-| [8](https://github.com/dzienbardzodobry/Zaawansowane-aplikacje-1) | Strona internetowa funkcjonalności | HTML |
-| [9](https://github.com/dzienbardzodobry/Zaawansowane-aplikacje-1) | Strona internetowa funkcjonalności 2 | HTML |
-| [10](https://github.com/dzienbardzodobry/Zaawansowane-aplikacje-1) | Projekt diagram UML | UML |
-| [11](https://github.com/dzienbardzodobry/Zaawansowane-aplikacje-1) | Strona internetowa do zarządzania biblioteką z systemem logowania i rejestracji | HTML, Boostrap, SQL |
-| [12](https://github.com/dzienbardzodobry/Zaawansowane-aplikacje-1) | Projekt do zarządzania hotelem | JAVA |
+| [1]([https://drive.google.com/drive/folders/1INURNwmzf-0lRGSaXKp7LzA0ZbULj3dl?usp=sharing]) | Aplikacja do zamawiania kateringu, dodanie firm z kateringami | React, Spring Boot, SQL |
+| [2]([https://drive.google.com/drive/folders/1INURNwmzf-0lRGSaXKp7LzA0ZbULj3dl?usp=sharing]) | Aplikacja mobilna do zarządzania drużyną piłkarską | Android Studio, Firebase |
+| [3] | Projekt do kateringu | Visual Paradigm |
+| [4] | Projekt lit-ors obsługujący mapy | TypeScript |
+| [5] | Projekt html z logowaniem i rejestracją | HTML |
+| [6] | Projekt do zarządzania zamówieniami | JAVA |
+| [7] | Strona interentowa | HTML, Bootstrap |
+| [8] | Strona internetowa funkcjonalności | HTML |
+| [9] | Strona internetowa funkcjonalności 2 | HTML |
+| [10] | Projekt diagram UML | UML |
+| [11]([https://drive.google.com/drive/folders/1INURNwmzf-0lRGSaXKp7LzA0ZbULj3dl?usp=sharing]) | Strona internetowa do zarządzania biblioteką z systemem logowania i rejestracji | HTML, Boostrap, SQL |
+| [12] | Projekt do zarządzania hotelem | JAVA |
 
 ---
 
