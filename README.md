@@ -28,8 +28,9 @@ Byłem studentem Informatyki w Katolicki Uniwersytet Lubelski Jana Pawła II, uk
 
 | Nr oraz Link do projektu | Opis | Technologie | 
 | --- | --- | --- | 
-| [1]([[https://drive.google.com/drive/folders/1INURNwmzf-0lRGSaXKp7LzA0ZbULj3dl?usp=sharing]](https://drive.google.com/drive/folders/1INURNwmzf-0lRGSaXKp7LzA0ZbULj3dl?usp=sharing)) | Aplikacja do zamawiania kateringu, dodanie firm z kateringami | React, Spring Boot, SQL |
+| [1](https://drive.google.com/drive/folders/1INURNwmzf-0lRGSaXKp7LzA0ZbULj3dl?usp=sharing]](https://drive.google.com/drive/folders/1INURNwmzf-0lRGSaXKp7LzA0ZbULj3dl?usp=sharing)) | Aplikacja do zamawiania kateringu, dodanie firm z kateringami | React, Spring Boot, SQL |
 | [2](https://.google.com/drive/folders/1INURNwmzf-0lRGSaXKp7LzA0ZbULj3dl?usp=sharing) | Aplikacja mobilna do zarządzania drużyną piłkarską | Android Studio-Kotlin, Firebase |
+| [2](https://drive.google.com/drive/folders/1INURNwmzf-0lRGSaXKp7LzA0ZbULj3dl?usp=sharing) | Aplikacja mobilna do zarządzania drużyną piłkarską | Android Studio, Firebase  |
 | [3] | Projekt do kateringu | Visual Paradigm |
 | [4] | Projekt lit-ors obsługujący mapy | TypeScript |
 | [5] | Projekt html z logowaniem i rejestracją | HTML |
