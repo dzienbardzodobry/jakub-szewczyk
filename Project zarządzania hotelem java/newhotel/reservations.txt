@@ -1,0 +1,7 @@
+stopa - Pokój nr 106 - 2024-02-10 na 2 dni - Koszt: 900.0 zł
+stopa - Pokój nr 103 - 2024-02-10 na 5 dni - Koszt: 2250.0 zł
+stopa - Pokój nr 105 - 2024-02-10 na 3 dni - Koszt: 600.0 zł
+customer - Pokój nr 103 - 2025-02-15 na 3 dni - Koszt: 1350.0 zł
+stopa - Pokój nr 102 - 2024-02-10 na 3 dni - Koszt: 600.0 zł
+szewczyk - Pokój nr 103 - 2024-02-19 na 3 dni - Koszt: 1350.0 zł
+szewczyk - Pokój nr 102 - 2024-05-15 na 2 dni - Koszt: 400.0 zł

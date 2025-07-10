@@ -1,0 +1,3 @@
+adrianstopa:employee:witam jest woda u was?:true
+employee:adrianstopa:nie:false
+adrianstopa:employee:a co tam u was:false
