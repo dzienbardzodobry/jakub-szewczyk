@@ -28,9 +28,8 @@ Byłem studentem Informatyki w Katolicki Uniwersytet Lubelski Jana Pawła II, uk
 
 | Nr oraz Link do projektu | Opis | Technologie | 
 | --- | --- | --- | 
-| [1](https://drive.google.com/drive/folders/1INURNwmzf-0lRGSaXKp7LzA0ZbULj3dl?usp=sharing]](https://drive.google.com/drive/folders/1INURNwmzf-0lRGSaXKp7LzA0ZbULj3dl?usp=sharing)) | Aplikacja do zamawiania kateringu, dodanie firm z kateringami | React, Spring Boot, SQL |
-| [2](https://.google.com/drive/folders/1INURNwmzf-0lRGSaXKp7LzA0ZbULj3dl?usp=sharing) | Aplikacja mobilna do zarządzania drużyną piłkarską | Android Studio-Kotlin, Firebase |
-| [2](https://drive.google.com/drive/folders/1INURNwmzf-0lRGSaXKp7LzA0ZbULj3dl?usp=sharing) | Aplikacja mobilna do zarządzania drużyną piłkarską | Android Studio, Firebase  |
+| [1](https://drive.google.com/drive/folders/1INURNwmzf-0lRGSaXKp7LzA0ZbULj3dl?usp=sharing) | Aplikacja do zamawiania kateringu, dodanie firm z kateringami | React, Spring Boot, SQL |
+| [2](https://drive.google.com/drive/folders/1INURNwmzf-0lRGSaXKp7LzA0ZbULj3dl?usp=sharing) | Aplikacja mobilna do zarządzania drużyną piłkarską | Android Studio-Kotlin, Firebase |
 | [3] | Projekt do kateringu | Visual Paradigm |
 | [4] | Projekt lit-ors obsługujący mapy | TypeScript |
 | [5] | Projekt html z logowaniem i rejestracją | HTML |
@@ -39,9 +38,10 @@ Byłem studentem Informatyki w Katolicki Uniwersytet Lubelski Jana Pawła II, uk
 | [8] | Strona internetowa funkcjonalności | HTML |
 | [9] | Strona internetowa funkcjonalności 2 | HTML |
 | [10] | Projekt diagram UML | UML |
-| [11]([https://drive.google.com/drive/folders/1INURNwmzf-0lRGSaXKp7LzA0ZbULj3dl?usp=sharing]) | Strona internetowa do zarządzania biblioteką z systemem logowania i rejestracji | HTML, Boostrap, SQL |
+| [11](https://drive.google.com/drive/folders/1INURNwmzf-0lRGSaXKp7LzA0ZbULj3dl?usp=sharing) | Strona internetowa do zarządzania biblioteką z systemem logowania i rejestracji | HTML, Boostrap, SQL |
 | [12] | Projekt do zarządzania hotelem | JAVA |
 
+Niektóre projekty umieszczone na dysku z racji że są trochę bardziej obszerniejsze.
 ---
 
 ## 📫 Kontakt
