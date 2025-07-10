@@ -1,0 +1,44 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Rejestracja</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="style.css"> 
+
+    <script>
+$(".log-in").click(function(){
+	$(".signIn").addClass("active-dx");
+	$(".signUp").addClass("inactive-sx");
+	$(".signUp").removeClass("active-sx");
+	$(".signIn").removeClass("inactive-dx");
+});
+
+$(".back").click(function(){
+	$(".signUp").addClass("active-sx");
+	$(".signIn").addClass("inactive-dx");
+	$(".signIn").removeClass("active-dx");
+	$(".signUp").removeClass("inactive-sx");
+});
+
+</script>
+
+ </head>
+    
+  <body>
+    <div class="container">
+        <form class="signUp">
+            <h3>Rejestracja</h3>
+            Podaj email: <input class="email" type="email" placeholder="wpisz E-Mail" reqired autocomplete='on' /></br>
+            Podaj hasło: <input type="password" placeholder="Wpisz haslo" reqired /></br>
+            Powtorz hasło: <input type="password" placeholder="Powtorz haslo" reqired /></br>
+            <button class="form-btn dx" type="submit" onClick="location.href='index.html'; return confirm('Zostales zarejestrowany')">Zarejestruj</button></br>
+        </form>
+        <form class="signIn">
+            Zarejestruj się przez   
+                <a href="https://pl-pl.facebook.com/" target="_blank">
+                <img src="https://www.fasttrac.org/wp-content/uploads/sites/4/2017/09/fb-icon.png?fit=256%2C256" width="35" height="35" alt="facebook"></a>
+            </form>
+    
+      
+  </body>
+</html>

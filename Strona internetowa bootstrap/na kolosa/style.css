@@ -1,0 +1,19 @@
+h1{
+    text-align: center;
+    background-color: lightgrey;
+    color: saddlebrown;
+}
+.row{
+    text-align: center;
+}
+.bg-menuNav{
+    background-color: indianred;
+}
+#logowanie{
+    width: 200px;
+    background-color: indianred;
+    color: white;
+}
+.menu-paris{
+   color: indianred;
+}

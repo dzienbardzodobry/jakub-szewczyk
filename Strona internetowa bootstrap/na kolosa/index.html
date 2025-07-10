@@ -1,0 +1,193 @@
+<!doctype html>
+<html lang="pl">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Miejsca świata</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js" integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD" crossorigin="anonymous"></script>
+
+<div class="container-fluid">
+    <nav class="navbar fixed-top bg-menuNav navbar-dark navbar-expand-lg">
+        <a class="navbar-brand ms-3" href="index.html" >Witam</a>
+        <button class="navbar-toggler" type="button"
+                data-bs-toggle="collapse" data-bs-target="#mainMenu" aria-controls="mainMenu" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse ms-2" id="mainMenu">
+            <ul class="nav navbar-nav">
+                <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                <li class="nav-item dropdown">
+                    <button class="btn btn-outline-light dropdown-toggle mx-1"
+                            type="button" data-bs-toggle="dropdown">Europa</button>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">Francja</a></li>
+                        <li><a class="dropdown-item" href="#">Polska</a></li>
+                        <li><a class="dropdown-item" href="#">Hiszpania</a></li>
+                        <li><a class="dropdown-item" href="#">Niemcy</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item dropdown">
+                    <button class="btn btn-outline-light dropdown-toggle mx-1"
+                            type="button" data-bs-toggle="dropdown">Afryka</button>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">Senegal</a></li>
+                        <li><a class="dropdown-item" href="#">Zimbabwe</a></li>
+                        <li><a class="dropdown-item" href="#">Kenia</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item dropdown">
+                    <button class="btn btn-outline-light dropdown-toggle mx-1"
+                            type="button" data-bs-toggle="dropdown">Azja</button>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">Chiny</a></li>
+                        <li><a class="dropdown-item" href="#">Korea</a></li>
+                        <li><a class="dropdown-item" href="#">Mongolia</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item dropdown">
+                    <button class="btn btn-outline-light dropdown-toggle mx-1"
+                            type="button" data-bs-toggle="dropdown">Ameryka Północna</button>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">USA</a></li>
+                        <li><a class="dropdown-item" href="#">Kanada</a></li>
+                        <li><a class="dropdown-item" href="#">Meksyk</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item dropdown">
+                    <button class="btn btn-outline-light dropdown-toggle mx-1"
+                            type="button" data-bs-toggle="dropdown">Ameryka Południowa</button>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">Kolumbia</a></li>
+                        <li><a class="dropdown-item" href="#">Chile</a></li>
+                        <li><a class="dropdown-item" href="#">Peru</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item dropdown">
+                    <button class="btn btn-outline-light dropdown-toggle mx-1"
+                            type="button" data-bs-toggle="dropdown">Przewodniki</button>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="paryz.html">Paryż</a></li>
+                        <li><a class="dropdown-item" href="wersal.html">Wersal</a></li>
+                        <li><a class="dropdown-item" href="madryt.html">Madryt</a></li>
+                        <li><a class="dropdown-item" href="#">Barcelona</a></li>
+                        <li><a class="dropdown-item" href="#">Wiedeń</a></li>
+                    </ul>
+                </li>
+            </ul>
+            <form class="form-inline row row-cols-lg-auto g-3 ms-auto" id="search">
+                <div>
+                    <label>
+                        <input class="form-control" type="search" placeholder="Wyszukaj">
+                    </label>
+                </div>
+                <div>
+                    <button type="submit" class="btn btn-light ms-auto">Szukaj</button>
+                </div>
+            </form>
+            <div class="dropdown pe-2 ps-4 py-1" >
+                <button class="btn btn-outline-light dropdown-toggle" type="button"
+                        data-bs-toggle="dropdown">Logowanie</button>
+                <form class="dropdown-menu px-3 py-2 dropdown-menu-start dropdown-menu-md-end" id="logowanie">
+                    <div class="form-group">
+                        <label for="email">Email:</label>
+                        <input type="email" class="form-control" id="email" placeholder="email@email.com">
+                    </div>
+                    <div class="form-group">
+                        <label for="haslo">Hasło:</label>
+                        <input type="password" class="form-control" id="haslo" placeholder="password">
+                    </div>
+                    <button type="submit" class="btn btn-light mt-3">Zaloguj się</button>
+                    <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="rejestracja.html">Załóż konto</a>
+                        <a class="dropdown-item" href="#">Przypomnij hasło</a>
+                </form>
+            </div>
+        </div>
+    </nav>
+    <header> <!-- przykryty przez przypiety navbar -->
+        <h1>Miejsca na świecie warte zobaczenia</h1>
+    </header>
+</div>
+
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-5 offset-1">
+            <div class="card bg-light border-dark">
+                <img src="https://media.zielonamapa.pl/images/ameryka-poludniowa/chile/santiago/santiago.jpg" class="card-img-bottom" alt="Egipt">
+                <div class="card-body">
+                    <h2 class="card-title">Chile</h2>
+                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur
+                        adipiscing elit. Fusce bibendum nibh
+                        non elementum iaculis. Fusce fermentum, nisi a imperdiet
+                        pretium, mauris metus tincidunt ante,
+                        vel interdum ante quam in eros. </p>
+                    <a href="#" class="btn btn-outline-danger" data-bs-toggle="modal"
+                       data-bs-target="#egiptModal">Więcej</a>
+                    <div class="modal fade modal-dialog-scrollable" data-bs-backdrop="static" id="egiptModal">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h1 class="modal-title">Egipt</h1>
+                                    <button type="button" class="btn-close" data-bs-backdrop="static" data-bsdismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <p>Przepraszamy, podana strona jest chwilowo niedostępna.</p>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" data-bs-backdrop="static" class="btn btn-myButton" data-bsdismiss="modal">Zamknij</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-4 offset-4">
+            <figure>
+                <a href="#"><img src="https://media.zielonamapa.pl/images/ameryka-poludniowa/chile/santiago/santiago.jpg" class="img-fluid" alt="Widok Chile"></a>
+                <figcaption>Widok Chile</figcaption>
+            </figure>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-3 offset-2">
+            <figure>
+                <a href="#"><img src="https://media.zielonamapa.pl/images/ameryka-poludniowa/chile/santiago/santiago.jpg" class="img-fluid" alt="Widok Chile"></a>
+                <figcaption>Widok Chile</figcaption>
+            </figure>
+        </div>
+        <div class="col-3 offset-2">
+            <figure>
+                <a href="#"><img src="https://media.zielonamapa.pl/images/ameryka-poludniowa/chile/santiago/santiago.jpg" class="img-fluid" alt="Widok Chile"></a>
+                <figcaption>Widok Chile</figcaption>
+            </figure>
+        </div>
+    </div>
+    <div class="row g-0">
+        <div class="col-6">
+            <figure>
+                <a href="#"><img src="https://media.zielonamapa.pl/images/ameryka-poludniowa/chile/santiago/santiago.jpg" class="img-fluid" alt="Widok Chile"></a>
+                <figcaption>Widok Chile</figcaption>
+            </figure>
+        </div>
+        <div class="col-6">
+            <figure>
+                <a href="#"><img src="https://media.zielonamapa.pl/images/ameryka-poludniowa/chile/santiago/santiago.jpg" class="img-fluid" alt="Widok Chile"></a>
+                <figcaption>Widok Chile</figcaption>
+            </figure>
+        </div>
+    </div>
+</div>
+
+
+</body>
+</html>

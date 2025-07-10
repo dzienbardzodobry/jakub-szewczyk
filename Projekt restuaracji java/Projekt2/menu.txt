@@ -1,0 +1,11 @@
+Kebab wołowy Rodzaj mięsa: Wołowina Rodzaj sosu: Czosnkowy Cena: 15,99 zł Wielkość: Mały
+Kebab drobiowy Rodzaj mięsa: Kurczak Rodzaj sosu: Ostry Cena: 14,99 zł Wielkość: Mały
+Zapiekanka z kurczakiem Rodzaj mięsa: Kurczak Rodzaj sosu: Ketchup Cena: 13,99 zł Wielkość: Średnia
+Kebab z jagnięciną Rodzaj mięsa: Jagnięcina Rodzaj sosu: Curry Cena: 16,99 zł Wielkość: Duży
+Zapiekanka wegetariańska Rodzaj mięsa: Brak (z warzywami) Rodzaj sosu: Pesto Cena: 11,99 zł Wielkość: Średnia
+Kebab z mięsem mielonym Rodzaj mięsa: Mielone mięso Rodzaj sosu: Pikantny Cena: 14,99 zł Wielkość: Duży
+Zapiekanka z pieczarkami Rodzaj mięsa: Brak (z pieczarkami) Rodzaj sosu: Śmietanowy Cena: 12,99 zł Wielkość: Średnia
+Kebab z indykiem Rodzaj mięsa: Indyk Rodzaj sosu: Słodko-kwaśny Cena: 15,99 zł Wielkość: Duży
+Kebab z karkówką Rodzaj mięsa: Karkówka Rodzaj sosu: Tatarski Cena: 15,99 zł Wielkość: Duży
+Kebab z falafelami Rodzaj mięsa: Brak (z falafelami) Rodzaj sosu: Hummus Cena: 12,99 zł Wielkość: Średnia
+Zapiekanka z pieczonym kurczakiem Rodzaj mięsa: Kurczak (pieczony) Rodzaj sosu: Musztardowy Cena: 14,99 zł Wielkość: Mała

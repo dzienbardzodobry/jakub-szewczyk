@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <title>Kontakt</title>
+</head>
+<body>
+
+    <div id="napis">
+        <h1 class="efekt">Strona poswiecona moim hobby</h1>
+    </div>
+    
+    <div id="menucale">
+        <a href="Kroki.html">
+            <div id="menu1">
+                <div id="textb">
+                    Kroki lutowania
+                </div>
+            </div>
+            </a>
+            <a href="Opis.html">
+                <div id="menu2">
+                    <div id="textb">
+                    Opis
+                    </div>
+                </div>
+                </a>
+                <a href="Galeria.html">
+                    <div id="menu3">
+                        <div id="textb">
+                        Galeria
+                        </div>
+                    </div>
+                    </a>
+       <a href="Untitled-1.html">
+       <div id="menu4">
+        <div id="textb">
+            Powrót
+        </div>
+        </div>
+        </a>
+    </div>
+    <div id="h2">
+        <h2>Formularz kontaktowy</h2>
+    </div>
+    <form class="form" id="contactForm" method="post" novalidate action="/send-scripts.php">
+        <div class="form-row">
+            <label for="field-name">Imie*</label>
+            <input type="text" name="name" required id="field-name" data-error="Wypełnij to pole" pattern="[a-zA-ZąĄććęęłŁńŃóÓśŚżŻŹŹ ]+">
+        </div>
+        <div class="form-row">
+            <label for="field-email">Email*</label>
+            <input type="email" name="email" required id="field-email" data-error="Wpisz poprawny email" pattern="[^@\s]+@[^@\s]+\.[^@\s]+">
+        </div>
+        <div class="form-row">
+            <label for="field-message">Wiadomość*</label>
+            <textarea name="message" required data-error="Musisz wypełnić pole" id="field-message" pattern=".+"></textarea>
+        </div>
+        <div class="form-row">
+            <label class="checkbox-cnt">
+                <input type="checkbox" data-error="Musisz wypełnić pole" name="regulation">
+                <i class="state" aria-hidden="true"></i>
+                <span>Zgadzam się na warunki przetwarzania moich danych
+                    <br>* Wymagane
+                </span>
+            </label>
+        </div>
+        <div class="form-row">
+            <button type="submit" onclick="return confirm('Zgłoszenie zostało przesłane!')" class="submit-btn"  >
+                Wyślij
+            </button>
+        </div>
+    </form>
+    <div id="stopkak">
+    <hr> 
+    Jakub Szewczyk Informatyka I stopnia 
+    </div>    
+
+</body>
+</html>

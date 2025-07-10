@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="pl">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Miejsca świata</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js" integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD" crossorigin="anonymous"></script>
+
+<div class="container-fluid">
+    <nav class="navbar fixed-top bg-menuNav navbar-dark navbar-expand-lg">
+        <a class="navbar-brand ms-3" href="index.html" >Ikona</a>
+        <button class="navbar-toggler" type="button"
+                data-bs-toggle="collapse" data-bs-target="#mainMenu" aria-controls="mainMenu" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse ms-2" id="mainMenu">
+            <ul class="nav navbar-nav">
+                <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                <li class="nav-item dropdown">
+                    <button class="btn btn-outline-light dropdown-toggle mx-1"
+                            type="button" data-bs-toggle="dropdown">Luwr</button>
+                    <ul class="dropdown-menu">
+                        <span class="dropdown-item-text menu-paris">Luwr</span>
+                        <h6 class="dropdown-header">Zobacz:</h6>
+                        <li><a class="dropdown-item" href="#">Historia</a></li>
+                        <li><a class="dropdown-item" href="#">Cennik</a></li>
+                        <li><a class="dropdown-item" href="#">Godziny otwarcia</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item dropdown">
+                    <button class="btn btn-outline-light dropdown-toggle mx-1"
+                            type="button" data-bs-toggle="dropdown">Wieża Eiffla</button>
+                    <ul class="dropdown-menu">
+                        <span class="dropdown-item-text menu-paris">Wieża Eiffla</span>
+                        <h6 class="dropdown-header">Zobacz:</h6>
+                        <li><a class="dropdown-item" href="#">Historia</a></li>
+                        <li><a class="dropdown-item" href="#">Cennik</a></li>
+                        <li><a class="dropdown-item" href="#">Godziny otwarcia</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item dropdown">
+                    <button class="btn btn-outline-light dropdown-toggle mx-1"
+                            type="button" data-bs-toggle="dropdown">Wersal</button>
+                    <ul class="dropdown-menu">
+                        <span class="dropdown-item-text menu-paris">Wersal</span>
+                        <h6 class="dropdown-header">Zobacz:</h6>
+                        <li><a class="dropdown-item" href="#">Historia</a></li>
+                        <li><a class="dropdown-item" href="#">Cennik</a></li>
+                        <li><a class="dropdown-item" href="#">Godziny otwarcia</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item dropdown">
+                    <button class="btn btn-outline-light dropdown-toggle mx-1"
+                            type="button" data-bs-toggle="dropdown">Przewodniki</button>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item active" href="paryz.html">Paryż</a></li>
+                        <li><a class="dropdown-item" href="#">Madryt</a></li>
+                        <li><a class="dropdown-item" href="#">Barcelona</a></li>
+                        <li><a class="dropdown-item" href="#">Wiedeń</a></li>
+                    </ul>
+                </li>
+            </ul>
+            <form class="form-inline row row-cols-lg-auto g-3 ms-auto" id="search">
+                <div>
+                    <label>
+                        <input class="form-control" type="search" placeholder="Wyszukaj">
+                    </label>
+                </div>
+                <div>
+                    <button type="submit" class="btn btn-light ms-auto">Szukaj</button>
+                </div>
+            </form>
+            <div class="dropdown pe-2 ps-4 py-1" >
+                <button class="btn btn-outline-light dropdown-toggle" type="button"
+                        data-bs-toggle="dropdown">Logowanie</button>
+                <form class="dropdown-menu px-3 py-2 dropdown-menu-start dropdown-menu-md-end" id="logowanie">
+                    <div class="form-group">
+                        <label for="email">Email:</label>
+                        <input type="email" class="form-control" id="email" placeholder="email@email.com">
+                    </div>
+                    <div class="form-group">
+                        <label for="haslo">Hasło:</label>
+                        <input type="password" class="form-control" id="haslo" placeholder="password">
+                    </div>
+                    <button type="submit" class="btn btn-light mt-3">Zaloguj się</button>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="#">Załóż konto</a>
+                    <a class="dropdown-item" href="#">Przypomnij hasło</a>
+                </form>
+            </div>
+        </div>
+    </nav>
+</div>
+<div class="row col-sm-10 offset-sm-1 mt-4">
+    <h2>Wyjazd na weekend</h2>
+    <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas eget
+        quam ut ligula rutrum varius vel ut
+        sapien. In finibus commodo ex sed hendrerit. Integer neque ligula,
+        mattis sed libero at, faucibus blandit
+        neque. Curabitur dignissim lectus non orci finibus efficitur.
+        Vestibulum quis pulvinar neque, iaculis
+        eleifend purus. Pellentesque nec mollis ligula, ut auctor ligula. Sed
+        sagittis odio vitae magna tincidunt,
+        in pharetra sem tincidunt.
+    </p>
+</div>
+
+    
+</body>
+</html>

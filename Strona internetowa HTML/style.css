@@ -1,0 +1,72 @@
+body{
+    background-color: chocolate;
+}
+#napis{
+    text-align: center;
+    text-decoration-color: brown;
+    text-shadow: blue;
+}
+#menucale{
+    background-color: aquamarine;
+    border:3px dashed red;
+    height: 40px;
+}
+#menu1{
+        background-color: chartreuse;
+        width: 25%;
+        height: 40px; 
+        float: left;
+        text-align: center;
+        display: block;
+        
+}
+#menu2{
+    background-color: bisque;
+    width: 25%;
+    height: 40px;
+    float: left;
+    text-align: center; 
+    display: block;
+    
+}
+#menu3{
+    background-color: blue;
+    width: 25%;
+    height: 40px;
+    float: left;
+    text-align: center;
+    display: block; 
+}
+#menu4{
+    background-color:blueviolet;
+    width: 25%;
+    height: 40px;
+    float: left;
+    text-align: center; 
+}
+#h3{
+    text-align: center;
+    margin-top: 3%;
+    font-size:large;
+}
+#stopka{
+    text-align: center;
+    margin-top: 35%;
+    background-color: royalblue;
+
+}
+#textb{
+    margin-top: 2%;
+}
+#menu1:hover {
+	background-color: #800;
+}
+#menu2:hover {
+	background-color: #800;
+}
+#menu3:hover {
+	background-color: #800;
+}
+#menu4:hover {
+	background-color: #800;
+}

@@ -1,0 +1,32 @@
+     table
+      {
+        border-spacing:15px;
+      }
+      label 
+      {
+        color:#02639a;
+        font-size:16px;
+        width:75px;
+        margin-left:10px; 
+      }
+      fieldset 
+      {
+        border:2px solid #02639a;
+        background-color:#e5f0f7;
+        padding:3px;
+        width:650px; 
+      }
+      legend 
+      {
+        color:#02639a;
+        background-color:#d1e8f7;
+        border:5px solid #02639a;
+        padding:3px;
+        font-weight:bold;
+        margin-left:-10px; 
+      }
+      input
+      {
+        width:600px;
+        color:#02639a;
+      }

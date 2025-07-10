@@ -1,0 +1,226 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Miejsca świata</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js" integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD" crossorigin="anonymous"></script>
+
+<div class="container-fluid">
+    <header>
+        <h1>Wersal</h1>
+        <h1>Przewodnik po jednym z najbardziej znanych miejsc we Francji</h1>
+    </header>
+    <nav class="navbar fixed-top bg-menuNav navbar-dark navbar-expand-lg">
+        <a class="navbar-brand ms-3" href="index.html" >Ikona</a>
+        <button class="navbar-toggler" type="button"
+                data-bs-toggle="collapse" data-bs-target="#mainMenu" aria-controls="mainMenu" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse ms-2" id="mainMenu">
+            <ul class="nav navbar-nav">
+                <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                <li class="nav-item dropdown">
+                    <button class="btn btn-outline-light dropdown-toggle mx-1"
+                            type="button" data-bs-toggle="dropdown">Europa</button>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">Francja</a></li>
+                        <li><a class="dropdown-item" href="#">Polska</a></li>
+                        <li><a class="dropdown-item" href="#">Hiszpania</a></li>
+                        <li><a class="dropdown-item" href="#">Niemcy</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item dropdown">
+                    <button class="btn btn-outline-light dropdown-toggle mx-1"
+                            type="button" data-bs-toggle="dropdown">Afryka</button>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">Senegal</a></li>
+                        <li><a class="dropdown-item" href="#">Zimbabwe</a></li>
+                        <li><a class="dropdown-item" href="#">Kenia</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item dropdown">
+                    <button class="btn btn-outline-light dropdown-toggle mx-1"
+                            type="button" data-bs-toggle="dropdown">Azja</button>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">Chiny</a></li>
+                        <li><a class="dropdown-item" href="#">Korea</a></li>
+                        <li><a class="dropdown-item" href="#">Mongolia</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item dropdown">
+                    <button class="btn btn-outline-light dropdown-toggle mx-1"
+                            type="button" data-bs-toggle="dropdown">Ameryka Północna</button>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">USA</a></li>
+                        <li><a class="dropdown-item" href="#">Kanada</a></li>
+                        <li><a class="dropdown-item" href="#">Meksyk</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item dropdown">
+                    <button class="btn btn-outline-light dropdown-toggle mx-1"
+                            type="button" data-bs-toggle="dropdown">Ameryka Południowa</button>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">Kolumbia</a></li>
+                        <li><a class="dropdown-item" href="#">Chile</a></li>
+                        <li><a class="dropdown-item" href="#">Peru</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item dropdown">
+                    <button class="btn btn-outline-light dropdown-toggle mx-1"
+                            type="button" data-bs-toggle="dropdown">Przewodniki</button>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="paryz.html">Paryż</a></li>
+                        <li><a class="dropdown-item" href="wersal.html">Wersal</a></li>
+                        <li><a class="dropdown-item" href="#">Madryt</a></li>
+                        <li><a class="dropdown-item" href="#">Barcelona</a></li>
+                        <li><a class="dropdown-item" href="#">Wiedeń</a></li>
+                    </ul>
+                </li>
+            </ul>
+            <form class="form-inline row row-cols-lg-auto g-3 ms-auto" id="search">
+                <div>
+                    <label>
+                        <input class="form-control" type="search" placeholder="Wyszukaj">
+                    </label>
+                </div>
+                <div>
+                    <button type="submit" class="btn btn-light ms-auto">Szukaj</button>
+                </div>
+            </form>
+            <div class="dropdown pe-2 ps-4 py-1" >
+                <button class="btn btn-outline-light dropdown-toggle" type="button"
+                        data-bs-toggle="dropdown">Logowanie</button>
+                <form class="dropdown-menu px-3 py-2 dropdown-menu-start dropdown-menu-md-end" id="logowanie">
+                    <div class="form-group">
+                        <label for="email">Email:</label>
+                        <input type="email" class="form-control" id="email" placeholder="email@email.com">
+                    </div>
+                    <div class="form-group">
+                        <label for="haslo">Hasło:</label>
+                        <input type="password" class="form-control" id="haslo" placeholder="password">
+                    </div>
+                    <button type="submit" class="btn btn-light mt-3">Zaloguj się</button>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="rejestracja.html">Załóż konto</a>
+                    <a class="dropdown-item" href="#">Przypomnij hasło</a>
+                </form>
+            </div>
+        </div>
+    </nav>
+</div>
+
+
+<div class="container">
+    <div class="col-sm-8 offset-2">
+        <div class="carousel slide carousel-fade" id="carouselBarcelona" data-bsride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselBarcelona" data-bsslide-to="0" class="active"></button>
+                <button type="button" data-bs-target="#carouselBarcelona" data-bs-slide-to="1"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="img1.jpg" class="d-block
+w-100 img-thumbnail rounded-circle" alt="Sagrada">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Sagrada Familia</h5>
+                        <p>Nulla facilisi. Proin bibendum non elit at congue. </p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="img2.jpeg" class="d-block w-100
+img-thumbnail rounded-circle" alt="Hiszpania">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Sagrada Familia</h5>
+                        <p>Nulla facilisi. Proin bibendum non elit at congue. </p>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" href="#carouselBarcelona"
+                    type="button" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+            </button>
+            <button class="carousel-control-next" href="#carouselBarcelona"
+                    type="button" data-bs-slide="next">
+                <span class="carousel-control-next-icon"></span>
+            </button>
+        </div>
+    </div>
+    <p>
+        <a class="btn btn-outline-danger" data-bs-toggle="collapse"
+           href="#additionalInfoSF" role="button">
+            Sagrada Familia
+        </a>
+        <a class="btn btn-outline-danger" data-bs-toggle="collapse"
+           href="#additionalInfoPG" role="button">
+            Park Guell
+        </a>
+        <a class="btn btn-outline-danger" data-bs-toggle="collapse"
+           href="#additionalInfoCM" role="button">
+            Casa Mila
+        </a>
+    </p>
+            <div class="collapse" id="additionalInfoSF">
+                <div class="card card-body">
+                    <h3>Sagrada Familia</h3>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce
+                    bibendum nibh non elementum iaculis.
+                    Fusce fermentum, nisi a imperdiet pretium, mauris metus tincidunt
+                    ante, vel interdum ante quam in
+                    eros.
+                    Nullam id ligula et ligula faucibus consectetur. Aliquam turpis
+                    mauris, finibus et nunc vel, egestas
+                    sollicitudin libero. Maecenas eget tempus purus.
+                </div>
+            </div>
+            <div class="collapse" id="additionalInfoPG">
+                <div class="card card-body">
+                    <h3>Park Guell</h3>
+                    Fusce fermentum, nisi a imperdiet pretium, mauris metus tincidunt
+                    ante, vel interdum ante quam in
+                    eros.
+                    Nullam id ligula et ligula faucibus consectetur. Aliquam turpis
+                    mauris, finibus et nunc vel, egestas
+                    sollicitudin libero. Maecenas eget tempus purus.
+                </div>
+            </div>
+            <div class="collapse" id="additionalInfoCM">
+                <div class="card card-body">
+                    <h3>Casa Mila</h3>
+                    Vivamus vitae metus vestibulum, sollicitudin risus eu, ultricies
+                    libero. Nullam ut
+                    tellus quis metus vestibulum suscipit et at felis.
+                    Fusce fermentum, nisi a imperdiet pretium, mauris metus tincidunt
+                    ante, vel interdum ante quam in
+                    eros.
+                    Nullam id ligula et ligula faucibus consectetur. Aliquam turpis
+                    mauris, finibus et nunc vel, egestas
+                    sollicitudin libero. Maecenas eget tempus purus.
+                </div>
+            </div>
+    <div class="row mt-5">
+        <div class="accordion" id="monumentsBarcelona">
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingOne">
+                    <button class="accordion-button" type="button" data-bstoggle="collapse" data-bs-target="#collapseFirst" aria-expanded="false" ariacontrols="collapseFirst">
+                        Więcej informacji o Barcelonie
+                    </button>
+                </h2>
+                <div id="collapseFirst" class="accordion-collapse collapse" arialabelledby="headingOne" data-bs-parent="#monumentsBarcelona">
+                    <div class="accordion-body">
+                        Proin porta sem nec nulla consequat, et finibus lacus
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+</body>
+</html>

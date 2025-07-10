@@ -1,0 +1,266 @@
+body{
+    background-color: chocolate;
+    height: 100%;
+    margin: 0%;
+    padding: 0%;
+}
+#napis{
+    text-align: center;
+}
+#menucale{
+    background-color: aquamarine;
+    border:3px dashed red;
+    height: 44px;
+}
+#menu1{
+        background-color: chartreuse;
+        width: 25%;
+        height: 40px; 
+        float: left;
+        text-align: center;
+        display: block;
+        border-radius: 10px;
+        cursor: pointer;
+        
+}
+#menu2{
+    background-color: bisque;
+    width: 25%;
+    height: 40px;
+    float: left;
+    text-align: center; 
+    display: block;
+    border-radius: 10px;
+    cursor: pointer;
+}
+#menu3{
+    background-color:coral;
+    width: 25%;
+    height: 40px;
+    float: left;
+    text-align: center;
+    display: block;
+    border-radius: 10px; 
+    cursor: pointer;
+}
+#menu4{
+    background-color:blueviolet;
+    width: 25%;
+    height: 40px;
+    float: left;
+    text-align: center; 
+    border-radius: 10px;
+    cursor: pointer;
+}
+#h2{
+    text-align: center;
+    margin-top: 2%;
+    font-size:large;
+}
+#stopkao{
+    text-align: center;
+    margin-top: 20%;
+    background-color: royalblue;
+    width: 100%;
+    height: 35px;
+
+}
+#stopkaa{
+    text-align: center;
+    margin-top: 16.5%;
+    background-color: royalblue;
+    width: 100%;
+    height: 35px;
+}
+#stopkak{
+    text-align: center;
+    margin-top: 3%;
+    background-color: royalblue;
+    width: 100%;
+    height: 35px;
+}
+#stopkag{
+    text-align: center;
+    margin-top: 10%;
+    background-color: royalblue;
+    width: 100%;
+    height: 35px;
+}
+#stopkaz{
+    text-align: center;
+    margin-top: 14%;
+    background-color: royalblue;
+    width: 100%;
+    height: 35px;
+}
+#textb{
+    margin-top: 3%;
+}
+#menu1:hover {
+	background-color: #800;
+    transition: 0.5s;
+}
+#menu2:hover {
+	background-color: #800;
+    transition: 0.5s;
+}
+#menu3:hover {
+	background-color: #800;
+    transition: 0.5s;
+}
+#menu4:hover {
+	background-color: #800;
+    transition: 0.5s;
+}
+.efekt{
+    opacity: 0;
+        animation: loading 3s linear infinite alternate;
+        font-family: sans-serif;
+        color:darkblue;
+}
+@keyframes loading {
+    to {
+        opacity: 2;
+    }
+}
+#zdj{
+    padding: 0%;
+    margin: 0%;
+}
+/*formularz*/
+* {
+    box-sizing: border-box;
+}
+
+.form {
+    margin:3rem auto;
+    font-family:sans-serif;
+    max-width:40rem;
+}
+.form .form-row {
+    margin-bottom:1rem;
+}
+.form .form-row:last-child {
+    margin-bottom: 0;
+}
+.form input[type=text],
+.form input[type=email],
+.form textarea,
+.form .checkbox-cnt .state {
+    box-shadow:inset 0 1px 5px rgba(0,0,0,0.07);
+}
+.form input[type=text],
+.form input[type=email],
+.form textarea {
+    border-radius:0.2rem;
+    font-family:sans-serif;
+    padding:0.8rem;
+    border:1px solid #aaa;
+    display: block;
+    width:100%;
+    color:#666;
+}
+.form input[type=text]:focus,
+.form input[type=email]:focus,
+.form textarea:focus {
+    border-color:#9DC9F5;
+    box-shadow:inset 0 0 0 1px #9DC9F5, inset 0 1px 5px rgba(0,0,0,0.07);
+    outline:none;
+}
+.form textarea {
+    height:10rem;
+}
+.form label {
+    font-weight:bold;
+    display: block;
+    font-size:0.9rem;
+    margin-bottom:0.5rem;
+}
+.form .submit-btn {
+    font-family: sans-serif;
+    padding:1rem 2rem;
+    background: #70B81B;
+    border:0;
+    border-radius:0.2rem;
+    color:#fff;
+    font-size:1.1rem;
+    font-weight: bold;
+    transition: 0.3s background-color;
+    
+}
+
+/* checkbox */
+.form .submit-btn:hover {
+    background: #7EC927;
+}
+.form .checkbox-cnt {
+    padding-left:3rem;
+    position: relative;
+    font-weight: normal;
+    font-size:0.85rem;
+    line-height: 1.1rem;
+    color:#444;
+    cursor: pointer;
+}
+.form .checkbox-cnt .state {
+    width:2rem;
+    height: 2rem;
+    display: block;
+    position: absolute;
+    left:0;
+    top:0;
+    border:1px solid #aaa;
+    border-radius:0.2rem;
+}
+.form .checkbox-cnt .state:before {
+    width:1rem;
+    height: 1rem;
+    border-radius:0.2rem;
+    background: #70B81B;
+    display: block;
+    position: absolute;
+    left:50%;
+    top:50%;
+    content:'';
+    transform:translate(-50%, -50%) scale(1);
+    opacity:0;
+}
+.form .checkbox-cnt input:checked ~ .state:before {
+    animation: checkboxShowAnim 0.5s 1;
+    opacity: 1;
+}
+.form .checkbox-cnt input {
+    position:absolute;
+    top:0; left:0;
+    width:2rem;
+    height: 2rem;
+    z-index: 2;
+    cursor:pointer;
+    padding:0;
+    margin:0;
+    opacity: 0;
+}
+@keyframes checkboxShowAnim {
+    0%  { border-radius:50%; transform:translate(-50%, -50%) scale(0.2); }
+    50% { transform:translate(-50%, -50%) scale(1.2); }
+    100% { transform:translate(-50%, -50%) scale(1); }
+}
+
+.form input[type=text].error,
+.form input[type=email].error,
+.form textarea.error,
+.form .checkbox-cnt input.error ~ .state {
+    border-color:#E01546;
+}
+.field-error {
+    color:#E01546;
+    padding:0.5rem 0;
+    font-size:0.8rem;
+}
+
+@media screen and (max-width:500px) {
+    .form .submit-btn {
+        display: block;
+        width: 100%;
+    }
+}
