@@ -28,17 +28,16 @@ Byłem studentem Informatyki w Katolicki Uniwersytet Lubelski Jana Pawła II, uk
 
 | Nr oraz Link do projektu | Opis | Technologie | 
 | --- | --- | --- | 
-| [1](https://drive.google.com/drive/folders/1INURNwmzf-0lRGSaXKp7LzA0ZbULj3dl?usp=sharing) | Aplikacja do zamawiania kateringu, dodanie firm z kateringami | React, Spring Boot, SQL |
-| [2](https://drive.google.com/drive/folders/1INURNwmzf-0lRGSaXKp7LzA0ZbULj3dl?usp=sharing) | Aplikacja mobilna do zarządzania drużyną piłkarską | Android Studio-Kotlin, Firebase |
-| [3](https://github.com/adrianstopa15/KateringAplikacja) | Projekt do kateringu | React, Spring boot, Spring Security|
-| [4] | Projekt lit-ors obsługujący mapy | TypeScript |
-| [5] | Projekt html z logowaniem i rejestracją | HTML |
-| [6] | Projekt do zarządzania zamówieniami na aukcji | JAVA |
-| [7] | Strona interentowa | HTML, Bootstrap |
-| [8] | Strona internetowa o moim hobby | HTML |
-| [9] | Projekt diagram UML | UML |
-| [10](https://drive.google.com/drive/folders/1INURNwmzf-0lRGSaXKp7LzA0ZbULj3dl?usp=sharing) | Strona internetowa do zarządzania biblioteką z systemem logowania i rejestracji | HTML, Boostrap, SQL |
-| [11] | Projekt do zarządzania rezerwacjami w hotelu | JAVA |
+| [1](https://drive.google.com/drive/folders/1INURNwmzf-0lRGSaXKp7LzA0ZbULj3dl?usp=sharing) | Aplikacja mobilna do zarządzania drużyną piłkarską | Android Studio-Kotlin, Firebase |
+| [2](https://github.com/adrianstopa15/KateringAplikacja) | Projekt do kateringu | React, Spring boot, Spring Security|
+| [3] | Projekt lit-ors | TypeScript |
+| [4] | Projekt html z logowaniem i rejestracją | HTML |
+| [5] | Projekt do zarządzania zamówieniami na aukcji | JAVA |
+| [6] | Strona interentowa | HTML, Bootstrap |
+| [7] | Strona internetowa o moim hobby | HTML |
+| [8] | Projekt diagram UML | UML |
+| [9](https://drive.google.com/drive/folders/1INURNwmzf-0lRGSaXKp7LzA0ZbULj3dl?usp=sharing) | Strona internetowa do zarządzania biblioteką z systemem logowania i rejestracji z zachowaniem bezpieczeństwa danych | HTML, Boostrap, SQL, PHP |
+| [10] | Projekt do zarządzania rezerwacjami w hotelu | JAVA |
 
 Niektóre projekty umieszczone na dysku z racji że są trochę bardziej obszerniejsze.
 ---
