@@ -33,13 +33,12 @@ Byłem studentem Informatyki w Katolicki Uniwersytet Lubelski Jana Pawła II, uk
 | [3] | Projekt do kateringu | Visual Paradigm |
 | [4] | Projekt lit-ors obsługujący mapy | TypeScript |
 | [5] | Projekt html z logowaniem i rejestracją | HTML |
-| [6] | Projekt do zarządzania zamówieniami | JAVA |
+| [6] | Projekt do zarządzania zamówieniami na aukcji | JAVA |
 | [7] | Strona interentowa | HTML, Bootstrap |
-| [8] | Strona internetowa funkcjonalności | HTML |
-| [9] | Strona internetowa funkcjonalności 2 | HTML |
-| [10] | Projekt diagram UML | UML |
-| [11](https://drive.google.com/drive/folders/1INURNwmzf-0lRGSaXKp7LzA0ZbULj3dl?usp=sharing) | Strona internetowa do zarządzania biblioteką z systemem logowania i rejestracji | HTML, Boostrap, SQL |
-| [12] | Projekt do zarządzania hotelem | JAVA |
+| [8] | Strona internetowa o moim hobby | HTML |
+| [9] | Projekt diagram UML | UML |
+| [10](https://drive.google.com/drive/folders/1INURNwmzf-0lRGSaXKp7LzA0ZbULj3dl?usp=sharing) | Strona internetowa do zarządzania biblioteką z systemem logowania i rejestracji | HTML, Boostrap, SQL |
+| [11] | Projekt do zarządzania rezerwacjami w hotelu | JAVA |
 
 Niektóre projekty umieszczone na dysku z racji że są trochę bardziej obszerniejsze.
 ---
