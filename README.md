@@ -30,7 +30,7 @@ Byłem studentem Informatyki w Katolicki Uniwersytet Lubelski Jana Pawła II, uk
 | --- | --- | --- | 
 | [1](https://drive.google.com/drive/folders/1INURNwmzf-0lRGSaXKp7LzA0ZbULj3dl?usp=sharing) | Aplikacja do zamawiania kateringu, dodanie firm z kateringami | React, Spring Boot, SQL |
 | [2](https://drive.google.com/drive/folders/1INURNwmzf-0lRGSaXKp7LzA0ZbULj3dl?usp=sharing) | Aplikacja mobilna do zarządzania drużyną piłkarską | Android Studio-Kotlin, Firebase |
-| [3] | Projekt do kateringu | Visual Paradigm |
+| [3](https://github.com/adrianstopa15/KateringAplikacja) | Projekt do kateringu | Visual Paradigm |
 | [4] | Projekt lit-ors obsługujący mapy | TypeScript |
 | [5] | Projekt html z logowaniem i rejestracją | HTML |
 | [6] | Projekt do zarządzania zamówieniami na aukcji | JAVA |
